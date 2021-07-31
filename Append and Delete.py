@@ -42,7 +42,6 @@ def appendAndDelete(s, t, k):
         if counter == k or k > (len(s) +len(t)):
             return 'Yes'
         else:
-            print(str(counter) + 'length:' + str(len(s))) 
             return 'No'
             
 
